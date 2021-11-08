@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <style>*{
+    margin: 0;
+    padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Roboto", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #1f6cdf;
+  --secondary-color: #35f8ff;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--font-family);
+}
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav h1 {
+    color: var(--primary-color);
+  }
+  
+  nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+  }
+  nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+  }
+  
+  nav ul li {
+    font-weight: var(--bold-font);
+  }
+  .burger-menu {
+    color: var(--primary-color);
+    font-size: 5rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
+  .hero img {
+    height: 37.5rem;
+    width: 37.5rem;
+  }
+  
+  .bio {
+    width: 50rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  }
+  
+  .bio h1 {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+  }</style>
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>দেবনাথ মোবাইল টেলিকম </title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>দেবনাথ মোবাইল টেলিকম</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">আমার সমন্ধে </a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+<br>
+<br>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img
+          src="images/logo.png"
+          alt="jane-doe"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title" style="color: rgb(6, 168, 6);">আমার সমন্ধে </h2>
+          <p class="bio-text" style="color: darkorange;">
+           
+         মোবাইল ঠিক করা হয় ,LED লাইট ঠিক করা হয় ,
+         মোবাইলের যেকোনো রোগ সরানো হয় ,মোবাইলের ডিসপ্লে
+         ,মোবাইল কাঁচ ,
+          মোবাইলের কভার পাওয়া যায় 
+         মোবাইলের ব্যাটারি , ক্যামেরার কাঁচ পাওয়া যায় .
+          
+          </p>
+        </div>
+    </section>
+
+<br>
+<br>
+<br>
+    <!-- More about -->
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title" style="color: mediumorchid;">ঠিকানা</h2>
+          <p class="bio-text" style="color:red;" >
+           
+             কামারমুনি , ব্রিপ্রশাখার ,<br>
+             <b>Pin :-742168 </b>, মুর্শিদাবাদ <br>
+             <b>Ph:- +91 8016823727</b></b></b></b></b></b></b>
+            
+ 
+
+          </p>
+        </div>
+    </section>
+    <!-- Skills section -->
+
+    <!-- Projects section -->
+
+    <!-- Contact section -->
+
+    <!-- Social accounts - Fixed to the right -->
+
+    <!-- Scroll to top -->
+
+    <!-- Footer section -->
+
+    <!-- Website scripts -->
+    <script>var a = alert("You are safe");
+if (a = true) {
+    document.write("made by pratim mal. ")
+}
+if (a = true) {
+    document.write(" make your website contact now : +91 6295774873")
+}</script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
